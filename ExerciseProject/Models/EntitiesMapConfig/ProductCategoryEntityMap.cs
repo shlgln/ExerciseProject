@@ -23,6 +23,11 @@ namespace ExerciseProject.Models.EntitiesMapConfig
             builder.HasOne<ProductCategory>().
                 WithMany(_ => _.ProductCategories)
                 .HasForeignKey(_ => _.ParentId);
+
+            builder.HasMany(_ => _.Products)
+                .WithOne(_ => _.ProductCategory)
+                .HasForeignKey(_ => _.CategoryId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

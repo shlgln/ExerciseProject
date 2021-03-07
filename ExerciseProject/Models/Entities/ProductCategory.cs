@@ -1,8 +1,6 @@
-﻿using System;
+﻿using ExerciseProject.Models.Entities;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ExerciseProject.Models
 {
@@ -14,6 +12,6 @@ namespace ExerciseProject.Models
         //----
         [ForeignKey("ParentId")]
         public ICollection<ProductCategory> ProductCategories { get; set; }
-        
+        public ICollection<Product> Products { get; set; }
     }
 }
