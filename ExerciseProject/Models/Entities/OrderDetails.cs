@@ -22,7 +22,7 @@ namespace ExerciseProject.Models.Entities
         }
         [ForeignKey("ProductId")]
         public ICollection<Product> Products { get; set; }
-
+        [ForeignKey("OrderId")]
         public Order Order { get; set; }
     }
 }

@@ -60,4 +60,3 @@ C:\Projects\ExerciseProject\ExerciseProject\obj\Debug\netcoreapp3.1\ExerciseProj
 C:\Projects\ExerciseProject\ExerciseProject\obj\Debug\netcoreapp3.1\ExerciseProject.dll
 C:\Projects\ExerciseProject\ExerciseProject\obj\Debug\netcoreapp3.1\ExerciseProject.pdb
 C:\Projects\ExerciseProject\ExerciseProject\obj\Debug\netcoreapp3.1\ExerciseProject.genruntimeconfig.cache
-C:\Projects\ExerciseProject\ExerciseProject\obj\Debug\netcoreapp3.1\ExerciseProject.csprojAssemblyReference.cache
