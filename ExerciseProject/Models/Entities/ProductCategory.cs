@@ -1,8 +1,7 @@
-﻿using ExerciseProject.Models.Entities;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ExerciseProject.Models
+namespace ExerciseProject.Models.Entities
 {
     public class ProductCategory
     {

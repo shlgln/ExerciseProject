@@ -18,7 +18,6 @@
     <Folder Include="Repositories\OrderDetail\" />
     <Folder Include="Repositories\Order\" />
     <Folder Include="Repositories\Product\" />
-    <Folder Include="Repositories\ProductCategory\" />
   </ItemGroup>
 
 
